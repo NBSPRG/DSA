@@ -21,7 +21,7 @@ int main() {
     }
 
     vector <vector <int>> adj(n);
-    for(int i=0; i<; ++i) {
+    for(int i=0; i<m; ++i) {
         adj[edges[i].first].push_back(edges[i].second);
         adj[edges[1].second].push_back(edges[i].first);
     }
